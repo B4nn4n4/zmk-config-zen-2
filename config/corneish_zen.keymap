@@ -37,8 +37,8 @@
                         label = " NAV";
                         bindings = < 
    &none &none     &kp HOME   &kp UP   &kp END    &kp PLUS        &none &tog 1       &tog 3       &tog 5       &none       &none
-   &none &kp LCTRL &kp LEFT   &kp DOWN &kp RIGHT  &kp MINUS    &none &kp RCTRL    &kp RSHIFT   &kp LALT     &none       &none
-   &none &kp BSPC  &kp C_PREV &kp C_PP &kp C_NEXT &none           &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
+   &none &kp LCTRL &kp LEFT   &kp DOWN &kp RIGHT  &kp MINUS       &none &kp RCTRL    &kp RSHIFT   &kp LALT     &none       &none
+   &none &kp BSPC  &kp C_PREV &kp C_PP &kp C_NEXT &none           &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR
                &kp K_CMENU &mt LSHIFT RET &mt RGUI BSPC           &none &none &none
                         >;
                 };
