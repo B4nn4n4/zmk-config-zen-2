@@ -30,30 +30,30 @@
                 default_layer {
                         label = "COLMAK";
                         bindings = <
-   &kp ESC   &kp Q &kp W &kp F &kp P       &kp G                                      &kp J &kp L       &kp U    &kp Y   &kp SEMI &kp SQT
-   &kp TAB   &bhm LALT A &bhm LGUI R 	&bhm LCTRL S 		&bhm LSHIFT T 	&kp D    	 	  &kp H 		&bhm RSHIFT N 	&bhm RCTRL E    	&bhm RGUI I   &bhm RALT O    &kp MINUS
-   &kp BSLH  &kp Z &kp X &kp C &kp V       &kp B                                      &kp K &kp M       &kp CMMA &kp DOT &kp FSLH &kp EQUAL
-    &none &lt 1 RET &mt LSHIFT SPACE                                      &lt 2 BSPC  &none &none 
+   &kp ESC   &kp Q 			&kp W 			&kp F 			&kp P       	&kp G             	&kp J 		&kp L   		&kp U    		&kp Y   	&kp SEMI 	&kp SQT
+   &kp TAB   &bhm LALT A 	&bhm LGUI R 	&bhm LCTRL S 	&bhm LSHIFT T 	&kp D    	 	  	&kp H 		&bhm RSHIFT N 	&bhm RCTRL E    &bhm RGUI I &bhm RALT O &kp MINUS
+   &kp BSLH  &kp Z 			&kp X 			&kp C 			&kp V       	&kp B             	&kp K 		&kp M   		&kp CMMA 		&kp DOT 	&kp FSLH 	&kp EQUAL
+											&none 			&kp RET 		&lt 1 SPACE  		&lt 2 BSPC 	&none 			&none 
                         >;
                 };
 
                 first_layer {
                         label = "NUM";
                         bindings = <
-   &kp GRAVE &none &none &none &none &none     						&none &none &none &none &none &none
-   &none     &bhm LALT N6         &bhm LGUI N4 	&bhm LCTRL N2  &bhm LSHIFT N0 &kp N8       	&kp N9      	&bhm RSHIFT N1 &bhm RCTRL N3 &bhm  RGUI N5 &bhm RALT N7    &none
-   &none     &none           &none  &none    &none      &none        						&none       &kp LBKT &kp RBKT &kp LBRC &kp RBRC  &none
-                                            &none &none &none        &none &none &none  
+   &kp GRAVE &kp F6 		&kp F4 			&kp F2 			&kp F10 		&kp F8     		&kp F9 		&kp F1 			&kp  F3			&kp F5 			&kp F7 			&none
+   &none     &bhm LALT N6   &bhm LGUI N4 	&bhm LCTRL N2 	&bhm LSHIFT N0 	&kp N8       	&kp N9      &bhm RSHIFT N1 	&bhm RCTRL N3 	&bhm RGUI N5 	&bhm RALT N7    &none
+   &none     &none         	&none  			&none    		&none      		&none        	&none       &kp LBKT 		&kp RBKT 		&kp LBRC 		&kp RBRC  		&none
+                                            &none 			&none 			&none        	&kp BSPC	&none 			&none  
                         >;
                 };
 
                 second_layer {
                         label = " NAV";
                         bindings = < 
-   &none &none     &kp HOME   &kp UP   &kp END    &kp PLUS        &none &tog 1       &tog 3       &tog 5       &none       &none
-   &none &none &kp LEFT   &kp DOWN &kp RIGHT  &kp MINUS       &none &kp RSHIFT	 &kp RCTRL     	&kp RGUI    &kp RALT       &none
-   &none &none  &kp C_PREV &kp C_PP &kp C_NEXT &none           &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR
-               &none &mt LSHIFT RET &mt RGUI BSPC           &none &none &none
+   &none &none  &kp HOME   &kp UP   &kp END    &kp PLUS        	&none 	&tog 1       	&tog 3       	&tog 5       	&none       	&none
+   &none &none 	&kp LEFT   &kp DOWN &kp RIGHT  &kp MINUS       	&none 	&kp RSHIFT	 	&kp RCTRL 		&kp RGUI    	&kp RALT       	&none
+   &none &none  &kp C_PREV &kp C_PP &kp C_NEXT &none           	&none 	&bt BT_SEL 0 	&bt BT_SEL 1 	&bt BT_SEL 2 	&bt BT_SEL 3 	&bt BT_CLR
+				&none 	&mt LSHIFT RET &mt RGUI BSPC           	&none 	&none 			&none
                         >;
                 };
 
