@@ -31,7 +31,7 @@
                         label = "COLMAK";
                         bindings = <
 							&kp ESC   &kp Q 		&kp W 			&kp F 			&kp P       	&kp G             	&kp J 		&kp L   		&kp U    		&kp Y   	&kp SEMI 	&kp SQT
-							&kp TAB   &bhm LSHIFT A &bhm LALT R 	&bhm LGUI S 	&bhm LCTRL T 	&kp D    	 	  	&kp H 		&bhm RCTRL N    &bhm RGUI E 	&bhm RALT I &bhm RSHIFT I &kp MINUS
+							&kp TAB   &bhm LSHIFT A &bhm LALT R 	&bhm LGUI S 	&bhm LCTRL T 	&kp D    	 	  	&kp H 		&bhm RCTRL N    &bhm RGUI E 	&bhm RALT I &bhm RSHIFT O &kp MINUS
 							&kp BSLH  &kp Z 		&kp X 			&kp C 			&kp V       	&kp B             	&kp K 		&kp M   		&kp CMMA 		&kp DOT 	&kp FSLH 	&kp EQUAL
 																	&none 			&kp RET 		&lt 1 SPACE  		&lt 2 BSPC 	&none 			&none 
                         >;
