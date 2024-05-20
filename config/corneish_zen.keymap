@@ -33,7 +33,7 @@
 							&kp ESC   &kp Q 		&kp W 			&kp F 			&kp P       	&kp G             	&kp J 		&kp L   		&kp U    		&kp Y   	&kp SEMI 	&kp SQT
 							&kp TAB   &bhm LSHIFT A &bhm LALT R 	&bhm LGUI S 	&bhm LCTRL T 	&kp D    	 	  	&kp H 		&bhm RCTRL N    &bhm RGUI E 	&bhm RALT I &bhm RSHIFT I &kp MINUS
 							&kp BSLH  &kp Z 		&kp X 			&kp C 			&kp V       	&kp B             	&kp K 		&kp M   		&kp CMMA 		&kp DOT 	&kp FSLH 	&kp EQUAL
-																	&none 			&kp RET 		&lt 1 SPACE  		&lt 2 BSPC 	&none 			&none 
+																	&none 			&none	 		&lt 1 SPACE  		&lt 2 BSPC 	&kp RET 		&none 
                         >;
                 };
 
@@ -50,10 +50,10 @@
                 second_layer {
                         label = " NAV";
                         bindings = < 
-							&none	&none	&kp HOME   	&kp UP  	&kp END    &kp PLUS        		&none 	&tog 1       	&tog 3       	&tog 5       	&none       	&none
+							&none	&none	&kp HOME   	&kp UP  	&kp END    &kp PLUS        		&none 	&tog 1       	&tog 3       	&tog 5       	&none       	&kp DEL
 							&none 	&none 	&kp LEFT   	&kp DOWN	&kp RIGHT  &kp MINUS       		&none 	&kp RCTRL 		&kp RGUI    	&kp RALT    	&kp RSHIFT	   	&none
 							&none 	&none	&kp C_PREV 	&kp C_PP 	&kp C_NEXT &none           		&none 	&bt BT_SEL 0 	&bt BT_SEL 1 	&bt BT_SEL 2 	&bt BT_SEL 3 	&bt BT_CLR
-														&none 	&mt LSHIFT RET &mt RGUI BSPC        &none	&none 			&none
+														&none 		&kp LSHIFT &mt RGUI BSPC        &none	&none 			&none
                         >;
                 };
 
