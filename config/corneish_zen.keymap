@@ -47,7 +47,7 @@ first_layer {
 };
 
 second_layer {
-        label = " NAV";
+        label = "NAV";
         bindings = < 
                 &none	&kp ESC	        &kp HOME   	&kp UP  	&kp END         &kp PLUS                &none           &none       	&none       	&none       	&kp DEL       	        &none
                 &none 	&kp TAB         &kp LEFT   	&kp DOWN	&kp RIGHT       &kp MINUS               &none           &kp RCTRL 	&kp RGUI    	&kp RALT    	&bhm RSHIFT K_CMENU     &none
