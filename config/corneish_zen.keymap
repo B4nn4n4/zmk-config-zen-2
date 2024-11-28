@@ -41,7 +41,7 @@
                         bindings = <
                                 &none   &kp F6          &kp F4          &kp F2	        &kp F10		&none                   &none           &kp F1  	&kp F3          &kp F5          &kp F7          &none
                                 &none   &bhm LSHIFT N6	&bhm LALT N4   	&bhm LGUI N2 	&bhm LCTRL N0 	&kp N8       	        &kp N9          &bhm RCTRL N1 	&bhm RGUI N3 	&bhm RALT N5    &bhm RSHIFT N7 	&none
-                                &none   &kp BSLH        &kp SQT  	&none    	&none      	&none        	        &none 	        &kp LBRC 	&kp RBRC  	&kp MINUS       &kp EQUAL       &none
+                                &none   &kp BSLH        &kp SQT  	&none    	&none      	&none        	        &none 	        &kp LBKT 	&kp RBKT  	&kp MINUS       &kp EQUAL       &none
                                                                         &none 		&none 		&none        	        &kp BSPC        &none 	        &none  
                         >;
                 };
